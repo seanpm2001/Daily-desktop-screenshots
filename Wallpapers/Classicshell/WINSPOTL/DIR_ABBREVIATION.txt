@@ -1,0 +1,2 @@
+The abbreviation for this directory: WINSPOTL/ stands for Windows SpotLight or WINDOWS_SPOTLIGHT
+I chose to have a shortened name to make the directory stand out more, since it isn't a commonly viewed directory and has some importance
