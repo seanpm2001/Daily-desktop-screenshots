@@ -1,0 +1,1 @@
+This repository houses my daily desktop screenshots since I started on April 17th 2018. I intend to make this like one of those early YouTube videos where someone takes a picture of themself every day for over a decade and puts it into a time lapse 4 minute video.
