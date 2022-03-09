@@ -1,6 +1,6 @@
 # Start of script
 
-# Editor configuration file for Seans Life Archive / Images / Tiny Tower
+# Editor configuration file for Seans Life Archive / Images / Daily Desktop Screenshots
 
 root = true
 
@@ -13,7 +13,8 @@ trim_trailing_whitespace = false
 insert_final_newline = false
 line_wrap_mode = soft wrap
 
-[*.md]
+# Markdown
+[*.md *.mkd *.mdown *.markdown]
 indent_style = space
 indent_size = 2
 end_of_line = lf
@@ -22,6 +23,7 @@ trim_trailing_whitespace = false
 insert_final_newline = false
 line_wrap_mode = soft wrap
 
+# YAML
 [*.yml *.yaml]
 indent_style = space
 indent_size = 2
@@ -31,6 +33,7 @@ trim_trailing_whitespace = false
 insert_final_newline = false
 line_wrap_mode = soft wrap
 
+# Plain Text
 [*.txt]
 indent_style = space
 indent_size = 2
@@ -40,6 +43,77 @@ trim_trailing_whitespace = false
 insert_final_newline = false
 line_wrap_mode = soft wrap
 
+# KDE Desktop
+[*.desktop]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+line_wrap_mode = soft wrap
+
+# Windows INI
+[*.ini]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+line_wrap_mode = soft wrap
+
+# JSON
+[*.json]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+line_wrap_mode = soft wrap
+
+# WikiText
+[*.wiki]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+line_wrap_mode = soft wrap
+
+# Citation file format
+[*.cff]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+line_wrap_mode = soft wrap
+
+# ReStructuredText
+[*.rst]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+line_wrap_mode = soft wrap
+
+# LaTeX
+[*.tex *.bib]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+line_wrap_mode = soft wrap
+
+# SVG
 [*.svg]
 indent_style = space
 indent_size = 2
@@ -49,7 +123,28 @@ trim_trailing_whitespace = false
 insert_final_newline = false
 line_wrap_mode = soft wrap
 
-[*.mk]
+# HTML5
+[*.htm *.html *.mhtm *.mhtml *.xhtm *.xhtml]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+line_wrap_mode = soft wrap
+
+# GNU Make(file)
+[*.mk *.mak *.make *.makefile]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+line_wrap_mode = soft wrap
+
+# GitConfig
+[*.gitignore *.gitattributes *.editorconfig]
 indent_style = space
 indent_size = 2
 end_of_line = lf
@@ -61,7 +156,7 @@ line_wrap_mode = soft wrap
 # File info
 
 # File type: Editorconfig file (*.editorconfig)
-# File version: 1 (Wednesday, August 18th 2021 at 8:50 pm)
-# Line count (including blank lines and compiler line): 68
+# File version: 2 (Tuesday, 2022 March 8th at 6:45 pm)
+# Line count (including blank lines and compiler line): 163
 
 # End of script
