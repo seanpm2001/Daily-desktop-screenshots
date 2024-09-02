@@ -1,0 +1,6 @@
+Color		R	G	B
+Green		69	200	43
+CyanBlue	0	170	181
+Orange		242	101	34
+Violet		129	41	144
+Red		237	28	36
